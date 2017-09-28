@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="soundfx"
+		android:title="Toggle sound"
+		android:summary="Enable/Disable sound effects"
+		android:defaultValue="true" />
+     <ListPreference android:key="minutes"
+ 	   android:title="Game Length"
+ 	   android:summary="How many minutes should one game last?"
+ 	   android:entries="@array/minutes12345"
+ 	   android:entryValues="@array/seconds12345"
+ 	   android:defaultValue="180" />
+	<CheckBoxPreference
+		android:key="rapid_guns"
+		android:title="Rapid-fire Missiles"
+		android:summary="Launch many missiles at a time"
+		android:defaultValue="true" />
+	<CheckBoxPreference
+		android:key="rapid_dc"
+		android:title="Rapid-fire Depth Charges"
+		android:summary="Launch many depth charges at a time"
+		android:defaultValue="false" />
+	<ListPreference android:key="num_planes"
+ 	   android:title="Airplanes on-screen"
+ 	   android:summary="How many airplanes should be on-screen at any time"
+ 	   android:entries="@array/labels1to10"
+ 	   android:entryValues="@array/nums1to10"
+ 	   android:defaultValue="3" />
+	<ListPreference android:key="num_subs"
+ 	   android:title="Submarines on-screen"
+ 	   android:summary="How many submarines should be on-screen at any time"
+ 	   android:entries="@array/labels1to10"
+ 	   android:entryValues="@array/nums1to10"
+ 	   android:defaultValue="3" />
+		<ListPreference android:key="plane_speed"
+ 	   android:title="Plane Speed"
+ 	   android:summary="How fast should planes go?"
+ 	   android:entries="@array/speed_labels"
+ 	   android:entryValues="@array/speed_values"
+ 	   android:defaultValue="0.00625" />
+	<ListPreference android:key="sub_speed"
+ 	   android:title="Sub Speed"
+ 	   android:summary="How fast should subs go?"
+ 	   android:entries="@array/speed_labels"
+ 	   android:entryValues="@array/speed_values"
+ 	   android:defaultValue="0.00625" />
+</PreferenceScreen>

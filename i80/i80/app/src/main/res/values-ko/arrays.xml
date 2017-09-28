@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="minutes12345">
+        <item>20 초</item>
+        <item>1 분</item>
+        <item>2 분</item>
+        <item>3 분(기본)</item>
+        <item>4 분</item>
+        <item>5 분</item>
+    </string-array>
+    <string-array name="seconds12345">
+        <item>20</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="labels1to10">
+        <item>1</item>
+        <item>2</item>
+        <item>3 (기본)</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="nums1to10">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="speed_labels">
+        <item>천천히</item>
+        <item>중간</item>
+        <item>빠르게</item>
+    </string-array>
+    <string-array name="speed_values">
+        <item>0.00625</item>
+        <item>0.01</item>
+        <item>0.02</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.byuh.cis.cs203.battleshipendgame2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Endgame 2"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="landscape"
+            android:name="edu.byuh.cis.cs203.battleshipendgame2.MainActivity"
+            android:label="Endgame 2" >
+        </activity>
+        <activity
+            android:name="edu.byuh.cis.cs203.battleshipendgame2.Options"
+            android:label="Preferences" >
+        </activity>
+        <activity
+            android:name="edu.byuh.cis.cs203.battleshipendgame2.HighScoreBoard"
+            android:label="GAME OVER!"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="landscape"
+            android:name="edu.byuh.cis.cs203.battleshipendgame2.SplashScreen"
+            android:label="Endgame 2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        </application>
+
+</manifest>

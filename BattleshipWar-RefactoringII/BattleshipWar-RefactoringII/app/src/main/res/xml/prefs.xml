@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="Sound effects"
+        android:summaryOn="Yes Sound"
+        android:summaryOff="No sound"
+        android:defaultValue="true"
+        android:key="Sound" />
+    <CheckBoxPreference
+        android:title="Rapid-fire Missiles"
+        android:summaryOff="one missile"
+        android:summaryOn="many missiles"
+        android:defaultValue="false"
+        android:key="rapidMissiles" />
+    <CheckBoxPreference
+        android:title="Rapid-fire Depth Charges"
+        android:summaryOff="one charge"
+        android:summaryOn="many charges"
+        android:defaultValue="false"
+        android:key="rapidCharges" />
+    <ListPreference
+        android:title="Plane Direction"
+        android:summary="Left, Right, Random?"
+        android:entries="@array/plane_directions"
+        android:entryValues="@array/plane_directions"
+        android:defaultValue="Random"
+        android:key="Direction" />
+    <ListPreference
+        android:title="Sub Direction"
+        android:summary="Left, Right, Random?"
+        android:entries="@array/sub_directions"
+        android:entryValues="@array/sub_directions"
+        android:defaultValue="Random"
+        android:key="Direction" />
+    <ListPreference
+        android:title="Plane Speed"
+        android:summary="Slow, Medium, Fast?"
+        android:entries="@array/plane_speed"
+        android:entryValues="@array/plane_speed"
+        android:defaultValue="Medium"
+        android:key="Speed" />
+    <ListPreference
+        android:title="Sub Speed"
+        android:summary="Slow, Medium, Fast?"
+        android:entries="@array/sub_speed"
+        android:entryValues="@array/sub_speed"
+        android:defaultValue="Medium"
+        android:key="Speed" />
+    <ListPreference
+        android:title="Number of Plane"
+        android:summary="1-10?"
+        android:entries="@array/plane_number"
+        android:entryValues="@array/plane_number"
+        android:defaultValue="5"
+        android:key="Number" />
+    <ListPreference
+        android:title="Number of Sub"
+        android:summary="1-10?"
+        android:entries="@array/sub_number"
+        android:entryValues="@array/sub_number"
+        android:defaultValue="5"
+        android:key="Number" />
+    <CheckBoxPreference
+        android:title="Frugality Mode"
+        android:summaryOff="No subtract"
+        android:summaryOn="subtract"
+        android:defaultValue="false"
+        android:key="Frugality" />
+</PreferenceScreen>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="soundfx"
+		android:title="@string/sound"
+		android:summary="@string/soundsum"
+		android:defaultValue="true" />
+
+     <ListPreference android:key="minutes"
+ 	   android:title="@string/length"
+ 	   android:summary="@string/lengthsum"
+ 	   android:entries="@array/minutes12345"
+ 	   android:entryValues="@array/seconds12345"
+ 	   android:defaultValue="180" />
+
+	<CheckBoxPreference
+		android:key="rapid_guns"
+		android:title="@string/rapidgun"
+		android:summary="@string/rapidgunsum"
+		android:defaultValue="true" />
+
+	<CheckBoxPreference
+		android:key="rapid_dc"
+		android:title="@string/rapiddc"
+		android:summary="@string/rapiddcsum"
+		android:defaultValue="false" />
+
+	<ListPreference android:key="num_planes"
+ 	   android:title="@string/airplan"
+ 	   android:summary="@string/airplansum"
+ 	   android:entries="@array/labels1to10"
+ 	   android:entryValues="@array/nums1to10"
+ 	   android:defaultValue="3" />
+
+	<ListPreference android:key="num_subs"
+ 	   android:title="@string/sub"
+ 	   android:summary="@string/subsum"
+ 	   android:entries="@array/labels1to10"
+ 	   android:entryValues="@array/nums1to10"
+ 	   android:defaultValue="3" />
+
+	<ListPreference android:key="plane_speed"
+ 	   android:title="@string/airspeed"
+ 	   android:summary="@string/airspeedsum"
+ 	   android:entries="@array/speed_labels"
+ 	   android:entryValues="@array/speed_values"
+ 	   android:defaultValue="0.00625" />
+
+	<ListPreference android:key="sub_speed"
+ 	   android:title="@string/subspeed"
+ 	   android:summary="@string/subspeedsum"
+ 	   android:entries="@array/speed_labels"
+ 	   android:entryValues="@array/speed_values"
+ 	   android:defaultValue="0.00625" />
+</PreferenceScreen>

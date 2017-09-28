@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">배틀쉽</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">설정</string>
+    <string name="yes">네 다시하겠습니다!</string>
+    <string name="no">아니오 끝내겠습니다!</string>
+    <string name="score">점수: </string>
+    <string name="time">시간 </string>
+    <string name="hs1">새로운 가장높은 점수입니다! 당신의 점수는 </string>
+    <string name="hs2">. 다시 시작하시겠습니까?</string>
+    <string name="hs3">시간이 다됬습니다! 당신의 점수는 </string>
+    <string name="hs4">. 현재 가장 높은 점수는: </string>
+    <string name="hs5">. 다시 시작하시겠습니까?</string>
+    <string name="r1">야곱</string>
+    <string name="r2">왕</string>
+    <string name="r3">모세</string>
+    <string name="r4">누가</string>
+    <string name="r5">요한</string>
+    <string name="sound">게임소리</string>
+    <string name="soundsum">소리를 키고 끕니다</string>
+    <string name="length">게임시간</string>
+    <string name="lengthsum">얼마나 게임하고 싶나요?</string>
+    <string name="rapidgun">무제한 미사일</string>
+    <string name="rapidgunsum">무제한으로 미사일을 쏩니다</string>
+    <string name="rapiddc">무제한 어뢰</string>
+    <string name="rapiddcsum">무제한으로 어뢰를 쏩니다</string>
+    <string name="airplan">비행기수</string>
+    <string name="airplansum">비행기 몇대?</string>
+    <string name="sub">잠수함수</string>
+    <string name="subsum">잠수함 몇대?</string>
+    <string name="airspeed">비행기 속도</string>
+    <string name="airspeedsum">비행기 얼마나 빨리?</string>
+    <string name="subspeed">잠수함 속도</string>
+    <string name="subspeedsum">잠수함 얼마나 빨리?</string>
+    <string name="enter">이름을 쓰세요</string>
+</resources>

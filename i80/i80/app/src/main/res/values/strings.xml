@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Battleship</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">Yes, play again!</string>
+    <string name="no">No, quit.</string>
+    <string name="score">SCORE: </string>
+    <string name="time">Time </string>
+    <string name="hs1">We have a new Highscore! you scored </string>
+    <string name="hs2">. Play again?</string>
+    <string name="hs3">Time is up! Your score is </string>
+    <string name="hs4">. The current high score is: </string>
+    <string name="hs5">. Do you want to play again?</string>
+    <string name="r1">James</string>
+    <string name="r2">King</string>
+    <string name="r3">Moses</string>
+    <string name="r4">Luke</string>
+    <string name="r5">John</string>
+    <string name="sound">Toggle sound</string>
+    <string name="soundsum">Enable/Disable sound effects</string>
+    <string name="length">Game Length</string>
+    <string name="lengthsum">How many minutes should one game last?</string>
+    <string name="rapidgun">Rapid-fire Missiles</string>
+    <string name="rapidgunsum">Launch many missiles at a time</string>
+    <string name="rapiddc">Rapid-fire Depth Charges</string>
+    <string name="rapiddcsum">Launch many depth charges at a time</string>
+    <string name="airplan">Airplanes on-screen</string>
+    <string name="airplansum">How many airplanes should be on-screen at any time</string>
+    <string name="sub">Submarines on-screen</string>
+    <string name="subsum">How many submarines should be on-screen at any time</string>
+    <string name="airspeed">Plane Speed</string>
+    <string name="airspeedsum">How fast should planes go?</string>
+    <string name="subspeed">Sub Speed</string>
+    <string name="subspeedsum">How fast should subs go?</string>
+    <string name="enter">Enter Your Name Here</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Sound effects"
+        android:summaryOn="Yes Sound"
+        android:summaryOff="No sound"
+        android:defaultValue="true"
+        android:key="Sound" />
+
+    <CheckBoxPreference
+        android:title="Rapid-fire Missiles"
+        android:summaryOff="one missile"
+        android:summaryOn="many missiles"
+        android:defaultValue="false"
+        android:key="rapidMissiles" />
+
+    <CheckBoxPreference
+    android:title="Rapid-fire Charges"
+    android:summaryOff="one charges"
+    android:summaryOn="many charges"
+    android:defaultValue="false"
+    android:key="rapidCharges" />
+
+    <ListPreference
+        android:title="Number of Plane"
+        android:summary="1-10?"
+        android:entries="@array/number_planes"
+        android:entryValues="@array/number_planes"
+        android:defaultValue="3"
+        android:key="NumberOfPlanes" />
+
+    <ListPreference
+        android:title="Number of Sub"
+        android:summary="1-10?"
+        android:entries="@array/number_subs"
+        android:entryValues="@array/number_subs"
+        android:defaultValue="3"
+        android:key="NumberOfSubs" />
+
+    <CheckBoxPreference
+        android:title="Frugality Mode"
+        android:summaryOff="No subtract"
+        android:summaryOn="subtract"
+        android:defaultValue="false"
+        android:key="Frugality" />
+</PreferenceScreen>
